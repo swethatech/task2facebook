@@ -1,0 +1,17 @@
+Documentation About The Understanding Of Oauth Flow:
+OAuth is an open-standard authorization protocol or framework that provides applications the ability for “secure designated access.” For example, you can tell Face book that it’s OK for ESPN.com to access your profile or post updates to your timeline without having to give ESPN your Face book password. This minimizes risk in a major way: In the event ESPN suffers a breach, your Face book password remains safe.
+OAuth doesn’t share password data but instead uses authorization tokens to prove an identity between consumers and service providers. OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password.
+OAuth Examples:
+Facebook apps are a good OAuth use case example. Say you’re using an app on Facebook, and it asks you to share your profile and pictures. Facebook is, in this case, the service provider: it has your login data and your pictures. The app is the consumer, and as the user, you want to use the app to do something with your pictures. You specifically gave this app access to your pictures, which OAuth is managing in the background.
+
+OAuth Explained:
+OAuth is about authorization and not authentication. Authorization is asking for permission to do stuff. Authentication is about proving you are the correct person because you know things. OAuth doesn’t pass authentication data between consumers and service providers – but instead acts as an authorization token of sorts.
+
+Other Resources:
+Hopefully this was a good primer to get you familiar with OAuth so the next time you see “Sign-in with Twitter” or similar delegated identity verification, you’ll have a good idea of what is going on.
+If you want to dive deeper in into the mechanics of OAuth, here are some helpful links:
+* http://marktrapp.com/blog/2009/09/17/oauth-dummies
+* https://dev.twitter.com/docs/auth/oauth/faq
+* http://stackoverflow.com/questions/4113934/how-is-oauth-2-different-from-oauth-1
+* http://googlecodesamples.com/oauth_playground/
+
